@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kay kosmetics</title>
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!--font awesome cdn-->
+<!--<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--slick carousel cdn-->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+
+
+				
+
+<!--our stylesheet-->
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+<header>
+<div class="container-fluid">
+    <div class="row bg-primary-color">
+        <!--<div class="col-md-4 col-sm-12 col-4 ">
+            <div class="btn-group">
+                <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INR</button>
+            <div class="dropdown-menu"><a href="#" class="dropdown-item">USD</a>
+            <a href="#" class="dropdown-item">ERU-Euro</a></div>
+            
+            </div>
+
+        </div>-->
+        <div class="col-md-6 col-6 text-center">
+           
+            <h2 class="my-md-4 site-title font-kay text-white"> <i class="fa fa-angellist" aria-hidden="true"></i>  Kay Kosmetics</h2>
+        </div>
+        <div class="col-md-6 col-6 mt-4 text-right">
+            <p class="header-links">
+               <button type="button" class="btn btn-sm   text-white  font-main" data-toggle="modal" data-target="#modal"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</button>
+               <button type="button" class="btn btn-sm  text-white font-main " data-toggle="modal" data-target="#modal"><i class="fa fa-hand-o-up" aria-hidden="true"></i> Sign Up</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--modal-->
+<div class="modal fade" id="modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<!--modal header-->
+<div class="modal-header">
+<div class="row d-flex align-items-center justify-content-center">
+  <div class="col-12">
+    
+    <div class="card card-body">
+      <div class="card-title text-center text-dark">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="text-centre pink font-kay">Kay Kosmetics</h2>
+        <p class="text-capitalize">your beauty . our passion</p>
+      </div>
+     
+      <div class="modal-body text-center card card-body">
+      
+          <div>
+            <p class="text-uppercase">login/register</p>
+            <div class="row justify-content-around ">
+              <button type="button" class=" btn-expand-lg m-2 p-2 px-5"> <i class="fa fa-google pink">oogle</i></button>
+              <button type="button" class=" btn-expand-lg m-2 p-2 px-5"> <i class="fa fa-facebook pink">acebook</i></button>
+            </div>
+            
+          </div>
+          <hr>
+          <input type="text" class="form-control text-dark" id="group-username-1" placeholder="Enter Email Id or Phone number">
+        </div>
+      </div>
+      <div class="modal-footer d-flex align-items-center justify-content-center">
+        <p class="text-center text-capitalize">new to kay kosmetics?</p>
+        <p class="text-center pink text-capitalize">register & earn 2000 reward points></p>
+      </div>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+</div>
+<!--end of modal-->
+</div>
+
+<!--bootstrap component-->
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">FEATURES</a>
+            <a class="nav-item nav-link" href="#">COLLECTION</a>
+            <a class="nav-item nav-link" href="#">SHOP</a>
+            <a class="nav-item nav-link" href="#">ABOUT US</a>
+            
+          </div>
+        </div>
+        <div class="navbar-nav">
+            <li class="nav-item search-icon px-3 d-flex align-self-end justify-self-end "><i class="fa fa-search"></i></li>
+            <!--<li class="nav-item basket-icon px-3 d-flex align-self-end justify-self-end "><i class="fa fa-shopping-basket"></i></li>-->
+        </div>
+      </nav> 
+</div>
+
+</header>
+
+<!--main section-- we use slick for carousel-->
+<main>
+    <!--first slider-->
+    <div class="container-fluid p-0">
+        <div class="site-slider">
+            <div class="slider-one">
+                 <div><img src="./assets/37.jpg" class="img-fluid" alt="Banner-1"></div>
+                 <div><img src="./assets/36.jpg" class="img-fluid"alt="Banner-2"></div>
+                 <div><img src="./assets/38.jpg" class="img-fluid" alt="Banner-3"></div>
+                 <div><img src="./assets/40.jpg" class="img-fluid" alt="Banner-4"></div>
+                 <div><img src="./assets/41.jpg" class="img-fluid" alt="Banner-5"></div>
+             </div>
+             <div class="slider-btn">
+                 <span class="prev position-top"><i class="fa fa-chevron-left"></i></span>
+                 <span class="next position-top right-0"><i class="fa fa-chevron-right"></i></span>
+             </div>
+        </div>
+    </div>
+    <!--first slider-->
+    <!--second slider-->
+     <div class="container-fluid">
+         <div class="site-slider-two px-md-4">
+             <div class="row slider-two text-center">
+                 <div class="col-md-2  product pt-md-5 pt-4"><a href="products/blush.html" target="_blank">
+                     <img src="./assets/0.jpg" alt="product 1">
+                    <span class="border site-btn btn-span">Blush</span></a>
+                    </div>
+                    <div class="col-md-2  product pt-md-5 pt-4"><a href="products/lipstick.html" target="_blank">
+                        <img src="./assets/1.jpg" alt="product 2">
+                       <span class="border site-btn btn-span">Lipstick</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/nailpolish.html" target="_blank">
+                        <img src="./assets/2.jpg" alt="product 3">
+                       <span class="border site-btn btn-span">Polish</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/palette.html" target="_blank">
+                        <img src="./assets/3.jpg" alt="product 4">
+                       <span class="border site-btn btn-span">Palette</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/perfume.html" target="_blank">
+                        <img src="./assets/9.jpg" alt="product 5">
+                       <span class="border site-btn btn-span">Perfume</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/primer.html" target="_blank">
+                        <img src="./assets/4.jpg" alt="product 6">
+                       <span class="border site-btn btn-span">Primer</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/compact.html" target="_blank">
+                        <img src="./assets/5.jpg" alt="product 7">
+                       <span class="border site-btn btn-span">Compact</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/foundation.html" target="_blank">
+                        <img src="./assets/17.jpg" alt="product 8">
+                       <span class="border site-btn btn-span">Foundation</span></a>
+                       </div>
+                      
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/mascara.html" target="_blank">
+                        <img src="./assets/10.jpg" alt="product 9">
+                       <span class="border site-btn btn-span">Mascara</span></a>
+                       </div>
+                       <div class="col-md-2 product pt-md-5 pt-4"><a href="products/remover.html" target="_blank">
+                        <img src="./assets/14.jpg" alt="product 10">
+                       <span class="border site-btn btn-span">Remover</span></a>
+                       </div>
+             </div>
+             <div class="slider-btn">
+                <span class="prev position-top"><i class="fa fa-chevron-left fa-2x text-secondary"></i></span>
+                <span class="next position-top right-0"><i class="fa fa-chevron-right fa-2x text-secondary"></i></span>
+            </div>
+         </div>
+     </div>
+</main>
+</section>
+<!--end of nav section-->
+<!--foundation section-->
+  <section id="about" class="bg-secondary">
+    <div class="container-fluid">
+      <div class="row">
+        <!--img-->
+        <div class="col-md-6 about-picture height-80 "></div>
+        <!--text-->
+        <div class="col-md-6 about-text height-80 px-5 d-flex align-items-center justify-content-center">
+          <!--centereing-->
+          <div class="about-text-center">
+            <!--title-->
+    <div class="row">
+      <div class="col text-center">
+        <h1 class="display-5 text-capitalize text-dark mb-0">
+          <strong>the foundation shade finder</strong>
+        </h1>
+        <br>
+    <div>
+        <p class="mt-2  text-light">Buying the right foundation is always a difficult task.Fret not!We're bringing you the ultimate guide to find the perfect foundation for your skin tone.  </p>
+      </div>
+
+      <h3><a href="#"><button type="button " class="btn pink font-kay">SHOP NOW ></button></a></h3>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+    <!--end of title-->
+    <!--single item-->
+    <br><br>
+
+    <section id="feature" class=" topfeature bg-light">
+        <div class="container">
+          <!--title-->
+          <div class="row ">
+            <div class="col text-center ">
+              <h2 class="display-5 text-uppercase text-dark mb-0 singlefeature ">featured brands</h2>
+             
+            </div>
+          </div>
+        
+          <!--end of title-->
+          <div class="row">
+            <!--single member-->
+            <div class="col-md-6 col-lg-3 col-6 ">
+              <div class="card myhover ">
+                <img src="./assets/adds/f1.jpg" alt="member" class="card-img-top">
+                
+    
+                <div class="card-footer bg-light d-flex justify-content-around text-capitalize ">
+                <p class="pink ">get 1 mini free on  only rs.1900  </p>
+              
+                </div>
+              </div>
+            </div>
+            <!--end single member-->
+
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6">
+    <div class="card myhover">
+      <img src="./assets/adds/f2.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink ">upto 20% OFF on men facecreams </p>
+      
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f3.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink ">best of hair products 25% OFF</p>
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f4.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize ">
+      <p class="pink ">free hand cream worth Rs.325</p>
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f5.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink ">upto 30% on selected  products </p>
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f6.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink "> sale 20% OFF on selected products</p>
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f7.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink ">sale 30% off on new products </p>
+      </div>
+    </div>
+  </div>
+  <!--end single member-->
+<!--single member-->
+<div class="col-md-6 col-lg-3 col-6 ">
+    <div class="card myhover">
+      <img src="./assets/adds/f8.jpg" alt="member" class="card-img-top">
+      
+
+      <div class="card-footer bg-light d-flex justify-content-around text-capitalize">
+      <p class="pink ">buy two pallete and get one free</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--end single member-->
+  <!----------------product carousel-->
+  <section>
+  <div class="container" id="feature">
+    <div class="site-slider-three px-md-4">
+        <div class="row slider-three text-center">
+  
+          <div class="col text-center mb-3 ">
+            <h2 class="display-5 text-uppercase text-dark mb-0 singlefeature ">Featured products</h2>
+           
+          </div>
+            
+            
+            <div class="row mt-5  ">
+               <!--single- mascara-->
+               <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+                <div class="card product">
+                
+                <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 mascara"></i>
+                   <a href="products/mascara.html"><img class="card-img-top img-fluid " src="assets/10.jpg"></a>
+                   <div class="card-title"> <h4>Collosal Mascara</h4></div> 
+                   <div class="card-text">
+                  <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+                  <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 399 <del>500</del></h4>
+                   <!--<span class="pink">30% off</span>-->
+                   </div>
+                <br/>
+                
+               
+                  
+                </div> 
+            </div>
+           </div>
+             <!--single- nailpolish-->
+          <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+            <div class="card product">
+              <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 nailpolish"></i>
+               <a href="products/nailpolish.html"><img class="card-img-top img-fluid" src="assets/2.jpg"></a>
+               <div class="card-title"> <h4>Nykaa Nailpolish</h4></div> 
+               <div class="card-text">
+              <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i></div>
+              <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 299 <del>399</del></h4>
+               <!--<h4 class="pink">30% off</h4> -->
+              </div>
+            <br/>
+            
+            </div> 
+          </div>
+          </div>
+          <!--single-->
+            <!--single- perfume-->
+            <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+              <div class="card product">
+              <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 perfume"></i>
+                 <a href="products/perfume.html"><img class="card-img-top img-fluid " src="assets/9.jpg"></a>
+                 <div class="card-title"> <h4>Chanel Perfume</h4></div> 
+                 <div class="card-text">
+                <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+                <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 3000</h4>
+                 <!--<span class="pink">30% off</span>-->
+                 </div>
+              <br/>
+              
+             
+                
+              </div> 
+          </div>
+         </div>
+         <!--single- blush-->
+         <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+          <div class="card product">
+          <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 blush"></i>
+             <a href="products/blush.html"><img class="card-img-top img-fluid " src="assets/0.jpg"></a>
+             <div class="card-title"> <h4>Nykaa blush</h4></div> 
+             <div class="card-text">
+            <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+            <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 499 <del>699</del></h4>
+             <!--<span class="pink">30% off</span>-->
+             </div>
+          <br/>
+          
+         
+            
+          </div> 
+      </div>
+     </div>
+  <!--single-->
+    <!--single- foundation-->
+      <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+        <div class="card product">
+            <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 compact"></i>
+            <a href="products/foundation.html"><img class="card-img-top img-fluid " src="assets/17.jpg"></a>
+           <div class="card-title"> <h4>Fit Me Foundation</h4></div> 
+           <div class="card-text">
+           <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+           <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 499 <del>699</del></h4>
+           <!--<span class="pink">30% off</span>-->
+           </div>
+           <br/>
+          </div> 
+          </div>
+          </div>
+        <!--single- remover-->
+        <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+          <div class="card product">
+          <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 remover"></i>
+             <a href="products/remover.html"><img class="card-img-top img-fluid " src="assets/14.jpg"></a>
+             <div class="card-title"> <h4> Makeup Remover</h4></div> 
+             <div class="card-text">
+            <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+            <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 180 <del>250</del></h4>
+             <!--<span class="pink">30% off</span>-->
+             </div>
+          <br/>  
+          </div> 
+      </div>
+     </div>
+     <br><br>
+              
+              
+               <!--single- elle18 lipstick-->
+               <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+                 <div class="card product ">
+                   <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 lipstick"></i>
+                    <a href="products/lipstick.html"><img class="card-img-top img-fluid" src="assets/1.jpg"></a>
+                    <div class="card-title"> <h4>Elle 18 Lipstick</h4></div> 
+                    <div class="card-text">
+                   <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+                   <div><h4><i class="fa fa-inr" aria-hidden="true"></i> 99</h4>
+                    </div>
+                 <br/>
+                 
+               
+                 </div> 
+             </div>
+            </div>
+         <!--single-->
+        
+          <!--single-palette-->
+          <div class="col-6 col-md-4 col-lg-3 px-1 mx-auto mt-5">
+           <div class="card product">
+             <i class="fa fa-heart-o fa-2x pink align-self-end mr-4 mt-4 palette"></i>
+              <a href="products/palette.html"><img class="card-img-top img-fluid" src="assets/3.jpg"></a>
+              <div class="card-title"> <h4>Huda Palette</h4></div> 
+              <div class="card-text">
+             <div class="pink text-center"><i class="fa fa-star " aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i></div>
+             <div><h4><i class="fa fa-inr" aria-hidden="true"></i>800</h4>
+             
+           <br/>
+         
+           </div> 
+         </div>
+         </div>
+         <!--single-->
+              
+              
+         </div>
+         </div>
+         </div>   
+            
+         </div>
+        </section>
+
+<!------------------------------------add with bottom description-->
+  <section>
+    <div class="container" id="feature">
+      <div class="row ">
+        <div class="col text-center mb-3 ">
+          <h2 class="display-5 text-uppercase text-dark mb-0 singlefeature ">what's new on kay kosmetics</h2>
+         
+        </div>
+      </div>
+    <div class="row ">
+          <div class="col-md-6 my-3">
+            <div class="card">
+             <img src="./assets/adds/add1.jpg" alt="adds1">
+             <!--<div class="card-subtitle d-flex justify-content-center align-items-center bg-light mb-3 ">
+               <p class="pink text-capitalize">upto 35% OFF </p>
+               <p class="text-secondary text-capitalize">best of lakme makeup</p>
+             </div>-->
+             </div>
+          </div>
+          <div class="col-md-6 my-3">
+            <div class="card">
+            <img src="./assets/adds/add2.gif" alt="adds2">
+         </div>
+         </div>
+         <div class="col-md-6 my-3">
+           <div class="card">
+          <img src="./assets/adds/add3.jpg" alt="adds3">
+       </div>
+       </div>
+       <div class="col-md-6 my-3">
+         <div class="card">
+        <img src="./assets/adds/add4.jpg" alt="adds4">
+     </div>
+     </div>
+    </div>
+    </div>
+  </section>
+  <!--  ======================== Brand Area ==============================  -->
+
+  <section class="brand-area" id="feature">
+    <div class="container-fluid">
+       <!--title-->
+       <div class="row ">
+        <div class="col text-center ">
+          <h2 class="display-5 text-uppercase text-dark mb-0 singlefeature ">featured brands</h2>
+         
+        </div>
+      </div>
+    
+      <!--end of title-->
+    
+                <div class="first-row row"><!--first-row is ours-->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 ">
+                        <div class="single-brand">
+                            <img src="./assets/brands/01.png" alt="Brand-1 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/02.png" alt="Brand-2 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/03.png" alt="Brand-3 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/04.png" alt="Brand-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/05.png" alt="Brand-5 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/06.png" alt="Brand-6">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/07.png" alt="Brand-7 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-brand">
+                            <img src="./assets/brands/08.png" alt="Brand-8 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                      <div class="single-brand">
+                          <img src="./assets/brands/09.png" alt="Brand-8 ">
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="single-brand">
+                        <img src="./assets/brands/10.png" alt="Brand-8 ">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                  <div class="single-brand">
+                      <img src="./assets/brands/11.png" alt="Brand-8 ">
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="single-brand">
+                    <img src="./assets/brands/12.png" alt="Brand-8 ">
+                </div>
+            </div>
+          </div>
+          </div>
+</section>
+<hr>
+
+<!--  ======================== End Brand Area ==============================  -->
+<!------footer-->
+<footer>
+  <div class="container-fluid">
+  <div class="row bg-light">
+    <div class="col-sm-6 col-md-4 col-lg-4">
+           <div class="row">
+              <div class="col-4 pl-5 mx-auto pt-4">
+                <div class="pink text-center"><i class="fa fa-tags fa-3x" aria-hidden="true"></i>
+                </div>
+              </div>
+             
+      
+              <div class="col-8 pr-1 ">
+            <div>100 + BRANDS</div><hr>
+            <div class="text-sm">Well curated 10k+ products</div>
+    </div>
+  </div>
+      
+    </div>
+    <!--single-->
+    <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="row">
+         <div class="col-4 pl-5 mx-auto pt-4">
+           <div class="pink text-center"> <i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i></div>
+         </div>
+        
+ 
+         <div class="col-8 pr-1  d-felx align-items-start">
+       <div>Genuine Products</div><hr>
+       <div class="text-small text-capitalize">sourced directly from brands</div>
+</div>
+</div>
+ 
+</div>
+<!--single-->
+<div class="col-sm-6 col-md-4 col-lg-4">
+  <div class="row">
+     <div class="col-4 pl-5 mx-auto pt-4">
+       <div class="pink text-center"><i class="fa fa-truck fa-3x" aria-hidden="true"></i></div>
+     </div>
+    
+
+     <div class="col-8 pr-1 ">
+   <div>Free Shipping</div><hr>
+   <div class="text-sm">For orders above INR 1000</div>
+</div>
+</div>
+
+</div>
+  </div>
+  </div>
+
+  <div class="container-fluid my-5 py-5 footicon ">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center text-capitalize"><strong>show us some<i class="fa fa-heart pink"></i>on</strong></div>
+        <div class="text-center ">
+          <i class="fa fa-instagram mx-1"></i>
+          <i class="fa fa-twitter mx-1"></i>
+          <i class="fa fa-facebook mx-1"></i>
+          <i class="fa fa-youtube mx-1"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+<section>
+  <div class="container-fluid bg-secondary py-2">
+      <div class="row">
+        <div class="col-12 d-felx justify-content-center align-items-center">
+       <div ><p class="text-center">TERMS&CONDITION  |  SHIPPING POLICY  |   CANCELLATION POLICY   |    PRIVACY POLICY</p>
+      
+          <p class="text-capitalize text-center"> &copy; 2020 Kay kosmetics.all rights reserved. </p>
+          </div>
+          </div>
+      </div>
+   </div>
+</section>
+</footer>
+
+<!-------end of footer-->
+
+
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

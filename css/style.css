@@ -1,0 +1,381 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Fredoka+One&family=Permanent+Marker&display=swap');
+/*font-family: 'Alegreya', serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Permanent Marker', cursive;*/
+
+:root{
+    --primary-color:#fd4c90;
+    --light-gray:#2b3032a1;
+    --border:#2b303218;
+    --text-color:#fff;
+    --forbutton:'Alegreya', serif;
+    --main: 'Fredoka One', cursive;
+    --kay: 'Permanent Marker', cursive;
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+}
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color:var(--primary-color)!important;
+}
+.text-color{
+    color:var(--text-color);
+}
+
+.pink{
+    color:#f00c63;
+}
+.font-main{
+    font-family: var(--main);
+}
+
+.font-kay{
+    font-family: var(--kay);
+}
+
+.font-button{
+    font-family: var(--forbutton);
+}
+
+.border{
+    border-color:var(--border);
+}
+
+.container-fluid .dropdown-toggle,
+.container-fluid .dropdown-item{
+    font-size:0.7em;
+    
+}
+
+.header-links{font: size 0.9em;
+text-decoration:none;
+color:white}
+
+
+
+/*navbar*/
+.navbar-nav{
+    padding:0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size:0.9em;
+    color:var(--light-gray) !important;
+
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+.navbar-nav  .basket-icon{
+    margin-right:6.5rem !important;
+}
+
+/*slider one*/
+.site-slider{
+    position: relative;
+    
+}
+.position-top{
+    position: absolute;
+    top:50%;
+}
+
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: var(--primary-color);
+    padding:1rem 1.5rem;
+    border-radius: 10rem;
+    color:#fff;
+    margin:0 1rem;
+    opacity:1;
+    transition:opacity 1s ease;
+
+}
+/*.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity:1;
+}*/
+
+.right-0{
+    right:0;
+}
+
+
+.slick-dots{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:5rem;
+    padding-top:2rem 0 ;
+    list-style-type:none;
+    position: absolute;
+     bottom: 0;
+    right:50%;
+}
+
+.slick-dots li{
+    margin:0 0.6rem;
+}
+
+.slick-dots button{
+    display:block;
+    width:0.5rem;
+    height:0.5rem;
+    padding:0;
+    border:none;
+    background-color:var(--primary-color);
+    text-indent: -99999px;
+    border-radius: 100%;
+}
+.slick-dots li.slick-active button{
+    transform:scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.205);
+}
+/*second slider*/
+
+.site-slider-two {
+    position: relative;
+    height: 30%;
+}
+
+.site-slider-two .product {
+    height:25rem;
+    position: relative;
+    overflow:hidden;
+}
+
+.site-slider-two .product img {
+    width:90%;
+    margin: auto;
+}
+
+.site-btn.btn-span{
+    padding: 0.1rem 1rem;
+    border-radius:4rem;
+    border:1px solid var(--border);
+    background-color: #fff;
+    color:var(--light-gray);
+    text-decoration: none; 
+}
+
+/* Start Brand Area */ 
+
+ .brand-area{
+    padding: 5rem 10rem;
+    margin-bottom: 4rem;
+}
+
+ .brand-area .first-row .col-lg-3{
+    display: flex;
+    justify-content: center;
+}
+
+ .brand-area .first-row .col-lg-3 > .single-brand{
+    border: 1px solid var(--border);
+    text-align: center;
+    padding: 0rem 0rem;
+    margin: 2rem 0;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+ .brand-area .first-row .col-lg-3 > .single-brand > img{
+     
+    width: 100%;
+}
+
+ .brand-area .first-row .col-lg-3 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+ .brand-area .first-row .col-lg-3 > .single-brand:hover > img{
+    filter: brightness(0.15);
+}
+
+
+
+/* End Brand Area */ 
+
+
+.slider-two .slick-track .product:hover span{
+    background-color: var(--primary-color);
+}
+
+.height-80{
+    min-height: 60vh;
+}
+.about-picture{
+    background: url('../assets/foundation.jpg');
+    background-size: cover;
+   /* background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+#feature .myhover{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+#feature .myhover:hover {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+#feature .singlefeature{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+
+.footicon{
+    font-size: 30px;
+
+}
+.footicon i{
+    padding: 0.5rem;
+}
+.footicon i:hover{
+    color: var(--primary-color);
+}
+
+
+
+
+/* responsive*/
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+     .brand-area{
+        padding: 3% 4%;
+    }
+
+
+}
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+   
+
+     .brand-area{
+        padding: 3% 4%;
+    }
+    .site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: none;
+    padding:0.2rem 0.1rem;
+    border-radius: 10rem;
+    color:#fff;
+    margin:0 1rem;
+    opacity:0.3;
+    transition:opacity 1s ease;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
